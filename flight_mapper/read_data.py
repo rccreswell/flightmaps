@@ -111,6 +111,7 @@ class Flight:
                  atd=None,
                  ata=None,
                  pics=None,
+                 trip_pics=None,
                  adm_cxr=None,
                  price=None,
                  notes=None,
@@ -147,6 +148,9 @@ class Flight:
          self.pics = pics
          if self.pics is not None:
              self.pics = pics.split(';')
+         self.trip_pics = trip_pics
+         if self.trip_pics is not None:
+             self.trip_pics = trip_pics.split(';')
 
          self.parse_route(self.route_string, airports)
 
