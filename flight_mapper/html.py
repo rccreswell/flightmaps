@@ -417,8 +417,13 @@ class LogTable:
                             for pic in flight.pics:
                                 with tag('a', target='_blank', href=pic):
                                     doc.stag('img', src=pic, klass='log')
+                            if flight.trip_pics is not None:
+                                doc.asis('<span class="material-symbols-outlined">landscape</span>')
                         else:
-                            doc.text('')
+                            if flight.trip_pics is not None:
+                                doc.asis('<span class="material-symbols-outlined">landscape</span>')
+                            else:
+                                doc.text('')
 
 
                     with tag('td'):
@@ -521,6 +526,7 @@ def make_html(flights, airports):
             doc.asis('<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">')
             # doc.asis('<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500&display=swap" rel="stylesheet">')
             doc.asis('<link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">')
+            doc.asis('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />')
             
             doc.asis('<!-- Global site tag (gtag.js) - Google Analytics -->')
             doc.asis('<script async src="https://www.googletagmanager.com/gtag/js?id=G-5NN0B2TQT4"></script>')
