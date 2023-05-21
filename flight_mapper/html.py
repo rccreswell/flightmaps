@@ -418,10 +418,10 @@ class LogTable:
                                 with tag('a', target='_blank', href=pic):
                                     doc.stag('img', src=pic, klass='log')
                             if flight.trip_pics is not None:
-                                doc.asis('<span class="material-symbols-rounded" style="font-size:100%;">landscape</span>')
+                                doc.asis('<span class="material-symbols-rounded" style="font-size:140%;">landscape</span>')
                         else:
                             if flight.trip_pics is not None:
-                                doc.asis('<span class="material-symbols-rounded" style="font-size:100%;">landscape</span>')
+                                doc.asis('<span class="material-symbols-rounded" style="font-size:140%;">landscape</span>')
                             else:
                                 doc.text('')
 
