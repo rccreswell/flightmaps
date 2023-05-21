@@ -435,14 +435,14 @@ class LogTable:
                         with tag('td', colspan=7, style='text-align:right;'):
 
                             if flight.pics is not None:
-                                with tag('span', style='display:inline-block;'):
+                                with tag('div', style='display:inline-block;'):
                                     for pic in flight.pics:
                                         with tag('a', href=pic, target='_blank'):
                                             doc.stag('img', src=pic, klass='zoom')
                             if flight.trip_pics is not None:
                                 if flight.pics is not None:
-                                    doc.asis('<span style="border-left:1px solid #000;height:140px"></span>')
-                                with tag('span', style='display:inline-block;'):
+                                    doc.asis('<div style="border-left:1px solid #000;height:150px;display:inline-block;vertical-align:middle;"></span>')
+                                with tag('div', style='display:inline-block;'):
                                     for pic in flight.trip_pics:
                                         with tag('a', href=pic, target='_blank'):
                                             doc.stag('img', src=pic, klass='zoom')
