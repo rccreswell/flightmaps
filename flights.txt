@@ -1,4 +1,4 @@
-date=20230825,desig=AA,number=21,mkt_cxr=American Airlines,route=LHR-DFW,type2=777-300,type3=777-300ER,registration=N720AN,manufacturer=Boeing,std=0945,sta=1400,seat=15J,seat_type=WA,cabin=J
+date=20230825,desig=AA,number=21,mkt_cxr=American Airlines,route=LHR-DFW,type2=777-300,type3=777-300ER,registration=N720AN,manufacturer=Boeing,std=0945,sta=1400,seat=11J,seat_type=WA,cabin=J
 date=20230819,desig=AC,number=854,mkt_cxr=Air Canada,route=YYZ-LHR,type2=787-8,type3=787-8,registration=C-GHPV,manufacturer=Boeing,num_engines=2,engines=GE GEnx-1B,std=1835,sta=0635+1
 date=20230816,desig=AC,number=853,mkt_cxr=Air Canada,route=LHR-YYZ,type2=787-8,type3=787-8,registration=C-GHPY,manufacturer=Boeing,msn=35262,ln=235,first_flight=20141018,num_engines=2,engines=GE GEnx-1B,std=0830,sta=1115
 date=20230810,desig=BA,number=3280,mkt_cxr=British Airways,route=FLR-LCY,type2=E-190,type3=E-190,registration=G-LCYJ,manufacturer=Embraer,msn=339,first_flight=201002,num_engines=2,engines=GE CF34-10E7,std=1510,sta=1620
