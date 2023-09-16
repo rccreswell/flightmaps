@@ -1,5 +1,11 @@
+date=20230916,desig=AF,number=7360,mkt_cxr=Air France,route=CDG-LYS,type2=A318,type3=A318-100,registration=F-GUGO,manufacturer=Airbus
+date=20230915,desig=AF,number=1181,mkt_cxr=Air France,route=LHR-CDG,type2=CS300,type3=CS300,registration=F-HZUE,manufacturer=Bombardier
+date=20230911,desig=AA,number=728,mkt_cxr=American Airlines,route=PHL-LHR,type2=787-9,type3=787-9,registration=N823AN,manufacturer=Boeing
+date=20230911,desig=AA,number=2334,mkt_cxr=American Airlines,route=DFW-PHL,type2=A321neo,type3=A321-200NX,registration=N411AN,manufacturer=Airbus
+date=20230901,desig=AA,number=862,mkt_cxr=American Airlines,route=PHX-DFW,type2=A321,type3=A321-200,registration=N148AN,manufacturer=Airbus
+date=20230901,desig=AA,number=3029,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=SGU-PHX,type2=E-175,type3=E-175LR,registration=N506SY,manufacturer=Embraer
 date=20230829,desig=AA,number=3194,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=PHX-SGU,type2=E-175,type3=E-175LR,registration=N517SY,manufacturer=Embraer,std=1000,sta=1221,trip_pics=20230829_194950.jpg;20230829_200903.jpg;20230830_135432.jpg;20230830_143628.jpg;20230830_174019.jpg;20230830_193239.jpg;20230831_180628.jpg;20230831_205140.jpg;Screenshot_20230831_223323_Gallery.jpg;Screenshot_20230831_223403_Gallery.jpg
-date=20230829,desig=AA,number=520,mkt_cxr=American Airlines,route=DFW-PHX,type2=A321neo,type3=A321-200N,registration=N435AN,manufacturer=Airbus,std=0755,sta=0829
+date=20230829,desig=AA,number=520,mkt_cxr=American Airlines,route=DFW-PHX,type2=A321neo,type3=A321-200NX,registration=N435AN,manufacturer=Airbus,std=0755,sta=0829
 date=20230825,desig=AA,number=21,mkt_cxr=American Airlines,route=LHR-DFW,type2=777-300,type3=777-300ER,registration=N720AN,manufacturer=Boeing,std=0945,sta=1400,seat=11J,seat_type=WA,cabin=J
 date=20230819,desig=AC,number=854,mkt_cxr=Air Canada,route=YYZ-LHR,type2=787-8,type3=787-8,registration=C-GHPV,manufacturer=Boeing,num_engines=2,engines=GE GEnx-1B,std=1835,sta=0635+1
 date=20230816,desig=AC,number=853,mkt_cxr=Air Canada,route=LHR-YYZ,type2=787-8,type3=787-8,registration=C-GHPY,manufacturer=Boeing,msn=35262,ln=235,first_flight=20141018,num_engines=2,engines=GE GEnx-1B,std=0830,sta=1115
