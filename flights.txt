@@ -1,5 +1,7 @@
-date=20230916,desig=AF,number=7360,mkt_cxr=Air France,route=CDG-LYS,type2=A318,type3=A318-100,registration=F-GUGO,manufacturer=Airbus
-date=20230915,desig=AF,number=1181,mkt_cxr=Air France,route=LHR-CDG,type2=CS300,type3=CS300,registration=F-HZUE,manufacturer=Bombardier
+date=20230917,desig=AF,number=1380,mkt_cxr=Air France,route=CDG-LHR,type2=CS300,type3=CS300,registration=F-HZUT,manufacturer=Airbus,std=2100,sta=2125
+date=20230917,desig=AF,number=7369,mkt_cxr=Air France,route=LYS-CDG,type2=A321,type3=A321-200,registration=F-GTAP,manufacturer=Airbus,std=1840,sta=1950
+date=20230916,desig=AF,number=7360,mkt_cxr=Air France,route=CDG-LYS,type2=A318,type3=A318-100,registration=F-GUGO,manufacturer=Airbus,pics=20230919_020838.jpg,trip_pics=20230916_132455.jpg;20230916_160845.jpg;20230916_172545.jpg
+date=20230915,desig=AF,number=1181,mkt_cxr=Air France,route=LHR-CDG,type2=CS300,type3=CS300,registration=F-HZUE,manufacturer=Bombardier,pics=20230919_020756.jpg
 date=20230911,desig=AA,number=728,mkt_cxr=American Airlines,route=PHL-LHR,type2=787-9,type3=787-9,registration=N823AN,manufacturer=Boeing
 date=20230911,desig=AA,number=2334,mkt_cxr=American Airlines,route=DFW-PHL,type2=A321neo,type3=A321-200NX,registration=N411AN,manufacturer=Airbus
 date=20230901,desig=AA,number=862,mkt_cxr=American Airlines,route=PHX-DFW,type2=A321,type3=A321-200,registration=N148AN,manufacturer=Airbus
