@@ -500,7 +500,7 @@ class LogTable:
                                             with tag('td'):
                                                 text('airplane age')
                                             with tag('td'):
-                                                text('{} years'.format(round((datetime.datetime.today() - date_first_flight).days / 365.25)))
+                                                text('{} years'.format(round((flight.date - date_first_flight).days / 365.25)))
 
                                         with tag('tr'):
                                             with tag('td'):
