@@ -1,7 +1,7 @@
 date=20231009,desig=FR,number=1250,mkt_cxr=Ryanair,route=AAL-STN,type2=737-800,type3=737-800,registration=EI-DCY,manufacturer=Boeing,std=1620,sta=1710
 date=20231007,desig=BA,number=806,mkt_cxr=British Airways,route=LHR-BLL,type2=A319,type3=A319-100,registration=G-DBCK,manufacturer=Airbus,trip_pics=20231008_110737.jpg;20231008_134001.jpg;20231008_152659.jpg;20231008_181509.jpg;20231008_184427.jpg
 date=20230930,desig=U2,number=8342,mkt_cxr=easyJet,adm_cxr=easyJet Europe,route=NAP-LGW,type2=A320,type3=A320-200,registration=OE-ICF,manufacturer=Airbus,std=1635,sta=1825
-date=20230928,desig=BA,number=426,mkt_cxr=British Airways,route=LHR-NAP,type2=A320,type3=A320-200,registration=G-EUYC,manufacturer=Airbus,std=1815,sta=2155
+date=20230928,desig=BA,number=426,mkt_cxr=British Airways,route=LHR-NAP,type2=A320,type3=A320-200,registration=G-EUYC,manufacturer=Airbus,std=1815,sta=2155,trip_pics=20230929_144741.jpg;20230929_150129.jpg;20230929_211622.jpg
 date=20230917,desig=AF,number=1380,mkt_cxr=Air France,route=CDG-LHR,type2=CS300,type3=CS300,registration=F-HZUT,manufacturer=Bombardier,std=2100,sta=2125
 date=20230917,desig=AF,number=7369,mkt_cxr=Air France,route=LYS-CDG,type2=A321,type3=A321-200,registration=F-GTAP,manufacturer=Airbus,std=1840,sta=1950
 date=20230916,desig=AF,number=7360,mkt_cxr=Air France,route=CDG-LYS,type2=A318,type3=A318-100,registration=F-GUGO,manufacturer=Airbus,pics=20230919_020838.jpg,trip_pics=20230916_132455.jpg;20230916_160845.jpg;20230916_172545.jpg
