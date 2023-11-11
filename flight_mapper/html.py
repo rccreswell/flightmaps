@@ -444,9 +444,9 @@ class LogTable:
                                 #    doc.asis('<div style="border-left:1px solid #000;height:150px;display:inline-block;vertical-align:middle;"></div>')
                                 
                                 with tag('div', style='display:inline-block;'):
-                                    i = 1
+                                    i = 0
                                     for pic in flight.trip_pics:
-                                        if i % 5 == 0:
+                                        if i % 4 == 0 and i > 0:
                                             doc.stag('br')
                                             
                                         with tag('a', href=pic, target='_blank'):
