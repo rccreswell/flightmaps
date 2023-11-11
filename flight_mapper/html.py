@@ -442,10 +442,16 @@ class LogTable:
                             if flight.trip_pics is not None:
                                 #if flight.pics is not None:
                                 #    doc.asis('<div style="border-left:1px solid #000;height:150px;display:inline-block;vertical-align:middle;"></div>')
+                                
                                 with tag('div', style='display:inline-block;'):
+                                    i = 1
                                     for pic in flight.trip_pics:
+                                        if i % 5 == 0:
+                                            doc.stag('br')
+                                            
                                         with tag('a', href=pic, target='_blank'):
                                             doc.stag('img', loading='lazy', src=pic, klass='zoom')
+                                        i += 1
 
                             with tag('div', style='display:inline-block;vertical-align:top;'):
                                 with tag('table', klass='bare'):
