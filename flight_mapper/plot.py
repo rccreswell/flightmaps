@@ -9,7 +9,8 @@ import cartopy.feature as cfeature
 def plot_map(flights,
              airports,
              europe=False,
-             america=False):
+             america=False,
+             australia=False):
 
     if europe:
         labels = True
@@ -35,6 +36,18 @@ def plot_map(flights,
         ax.set_extent((-160, -58, 16.5, 62), crs=ccrs.PlateCarree())
         bounds = (-160, -58, 16.5, 62)
 
+    elif australia:
+        labels = True
+        states = True
+        projection = ccrs.Mercator(max_latitude=62, min_latitude=-65)
+        projection._threshold = projection._threshold / 100.0
+      
+        fig = plt.figure(figsize=(14, 14))
+        ax = fig.add_subplot(1, 1, 1, projection=projection)
+        # ax.set_global()
+        ax.set_extent((109, 179, -48, -8), crs=ccrs.PlateCarree())
+        bounds = (109, 179, -48, -8)
+               
     else:
         labels = False
         states = False
