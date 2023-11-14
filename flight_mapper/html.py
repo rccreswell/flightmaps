@@ -628,7 +628,8 @@ def make_html(flights, airports):
                     with tag('a', href='europe.png', target='_blank'):
                         doc.stag('img', src='europe.png', klass='maps_thumbs')
 
-
+                    with tag('a', href='australia.png', target='_blank'):
+                        doc.stag('img', src='australia.png', klass='maps_thumbs')
 
 
 
