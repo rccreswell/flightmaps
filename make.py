@@ -28,3 +28,6 @@ plt.savefig('public/europe.png', bbox_inches='tight')
 
 fig = fm.plot_map(flights, airports, america=True)
 plt.savefig('public/america.png', bbox_inches='tight')
+
+fig = fm.plot_map(flights, airports, australia=True)
+plt.savefig('public/australia.png', bbox_inches='tight')
