@@ -1,3 +1,5 @@
+date=20231117,desig=QF,number=1939,mkt_cxr=QantasLink,adm_cxr=Alliance Airlines,route=BNE-ADL,type2=E-190,type3=E-190,registration=VH-UYI,manufacturer=Embraer
+date=20231117,desig=QF,number=356,mkt_cxr=QantasLink,adm_cxr=Alliance Airlines,route=WLG-BNE,type2=E-190,type3=E-190,registration=VH-UZH,msn=183,manufacturer=Embraer
 date=20231115,desig=NZ,number=5027,mkt_cxr=Air New Zealand,route=AKL-NPE,type2=72,type3=72-600,registration=ZK-MVL,manufacturer=ATR,trip_pics=20231115_175632.jpg;20231115_191612.jpg;20231115_201332.jpg
 date=20231113,desig=AA,number=35,mkt_cxr=American Airlines,route=DFW-AKL,type2=787-9,type3=787-9,registration=N832AA,manufacturer=Boeing
 date=20231111,desig=AA,number=2448,mkt_cxr=American Airlines,route=SMF-DFW,type2=A321,type3=A321-200,registration=N904AA,manufacturer=Airbus,seat=14C,seat_type=A,cabin=Y
@@ -388,7 +390,7 @@ date=20151231,desig=EY,number=834,route=AUH-HKG,mkt_cxr=Etihad,manufacturer=Airb
 date=20151231,desig=EY,number=88,route=MXP-AUH,mkt_cxr=Etihad,manufacturer=Airbus,type2=A340-600,type3=A340-600,registration=A6-EHK,cabin=Y,first_flight=20090723,seat=23G,seat_type=A,num_engines=4,engines=RR Trent 556-61
 date=20151226,desig=AZ,number=407,route=FRA-FCO,mkt_cxr=Alitalia,manufacturer=Airbus,type2=A319,type3=A319-100,registration=EI-IMU,cabin=Y,first_flight=20120423,seat=19F,seat_type=W,num_engines=2,engines=CFMI CFM56-5B5
 date=20151225,desig=AA,number=704,route=CLT-FRA,mkt_cxr=American Airlines,manufacturer=Airbus,type2=A330-200,type3=A330-200,registration=N290AY,cabin=J,first_flight=20131126,seat=2A,seat_type=W,num_engines=2,engines=RR Trent 772B-60
-date=20151225,desig=AA,number=2110,route=DFW-CLT,mkt_cxr=American Airlines,manufacturer=Embraer,type2=E-190,type3=E-190AR,registration=N961UW,cabin=F,first_flight=200806,seat=1F,seat_type=W,num_engines=2,engines=GE CF34-10E6
+date=20151225,desig=AA,number=2110,route=DFW-CLT,mkt_cxr=American Airlines,manufacturer=Embraer,type2=E-190,type3=E-190AR,registration=N961UW,cabin=F,first_flight=200806,seat=1F,seat_type=W,num_engines=2,engines=GE CF34-10E6,msn=183
 date=20151223,desig=AA,number=1139,route=LGA-DFW,mkt_cxr=American Airlines,manufacturer=Boeing,type2=737-800,type3=737-800,registration=N983NN,cabin=Y+,first_flight=20151123,seat=15A,seat_type=W,num_engines=2,engines=CFMI CFM56-7B24
 date=20151206,desig=AA,number=3881,route=PHL-EWR,mkt_cxr=American Eagle,adm_cxr=Air Wisconsin,manufacturer=Bombardier,type2=CRJ-100/200,type3=CRJ-200LR,registration=N442AW,cabin=Y,first_flight=200303,seat=5F,seat_type=W,num_engines=2,engines=GE CF34-3B1
 date=20151206,desig=AA,number=4788,route=ITH-PHL,mkt_cxr=American Eagle,adm_cxr=Piedmont Airlines,manufacturer=Bombardier,type2=Dash 8-100/200,type3=Dash 8-100,registration=N931HA,cabin=Y,first_flight=198812,seat=9A,seat_type=W,num_engines=2,engines=PWC PW120A
