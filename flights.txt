@@ -1,6 +1,6 @@
 date=20231203,desig=BA,number=467,mkt_cxr=British Airways,route=MAD-LHR,type2=A320,type3=A320-200,registration=G-EUYW,manufacturer=Airbus
 date=20231203,desig=IB,number=8763,mkt_cxr=Iberia Regional,adm_cxr=Air Nostrum,route=BLQ-MAD,type2=CRJ-1000,type3=CRJ-1000,registration=EC-MJP,manufacturer=Bombardier
-date=20231127,desig=BA,number=544,mkt_cxr=British Airways,route=LHR-BLQ,type2=A320,type3=A320-200,registration=G-TTOE,manufacturer=Airbus
+date=20231127,desig=BA,number=544,mkt_cxr=British Airways,route=LHR-BLQ,type2=A320,type3=A320-200,registration=G-TTOE,manufacturer=Airbus,trip_pics=20231128_135434.jpg;20231128_133950.jpg;20231128_132040.jpg;20231128_125746.jpg;20231128_210802.jpg;20231129_071323.jpg;20231130_121849.jpg;20231202_113356.jpg;20231202_160600.jpg;20231202_162836.jpg
 date=20231120,desig=AA,number=138,mkt_cxr=American Airlines,route=LAX-LHR,type2=777-200,type3=777-200ER,registration=N752AN,manufacturer=Boeing
 date=20231120,desig=UA,number=99,mkt_cxr=United Airlines,route=MEL-LAX,type2=787-9,type3=787-9,registration=N27965,manufacturer=Boeing,cabin=J,seat=3A,seat_type=WA,trip_pics=20231121_013006.jpg;20231120_163646.jpg,std=1130,sta=0645
 date=20231117,desig=QF,number=1939,mkt_cxr=QantasLink,adm_cxr=Alliance Airlines,route=BNE-ADL,type2=E-190,type3=E-190,registration=VH-UYI,manufacturer=Embraer,trip_pics=20231118_150311.jpg;20231118_143927.jpg;20231119_120959.jpg;20231119_123347.jpg;20231119_142825.jpg;20231119_145152.jpg;20231120_211331.jpg
