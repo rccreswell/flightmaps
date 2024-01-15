@@ -1,3 +1,11 @@
+date=20240114,desig=AA,number=136,mkt_cxr=American Airlines,route=LAX-LHR,type2=777-200,type3=777-200ER,registration=N776AN,manufacturer=Boeing,cabin=J,seat=1L,seat_type=WA
+date=20240114,desig=AA,number=2366,mkt_cxr=American Airlines,route=DFW-SAN,type2=A321,type3=A321-200,registration=N988AL,manufacturer=Airbus,cabin=Y,seat=15A,seat_type=W
+date=20231224,desig=AA,number=3773,mkt_cxr=American Eagle,adm_cxr=Envoy Air,route=LBB-DFW,type2=E-175,type3=E-175,registration=N237NN,manufacturer=Embraer,cabin=F,seat=1F,seat_type=W
+date=20231231,desig=AA,number=3082,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=DFW-ROW,type2=CRJ-700,type3=CRJ-700,registration=N727SK,manufacturer=Bombardier,cabin=F,seat=1C,seat_type=A
+date=20231224,desig=AA,number=556,mkt_cxr=American Airlines,route=PHX-DFW,type2=A321neo,type3=A321-200NX,registration=N406AN,manufacturer=Airbus,cabin=Y+,seat=28A,seat_type=Y+
+date=20231224,desig=AA,number=4837,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=YUM-PHX,type2=E-175,type3=E-175,registration=N513SY,manufacturer=Embraer,cabin=F,seat=4D,seat_type=A
+date=20231220,desig=AA,number=3355,mkt_cxr=American Eagle,adm_cxr=Envoy Air,route=DFW-SAF,type2=E-170,type3=E-170,registration=N761RW,manufacturer=Embraer,cabin=Y+,seat=13C,seat_type=A
+date=20231213,desig=AA,number=2742,mkt_cxr=American Airlines,route=LAX-DFW,type2=737-800,type3=737-800,registration=N926NN,manufacturer=Boeing,cabin=Y,seat=10C,seat_type=A
 date=20231213,desig=AA,number=135,mkt_cxr=American Airlines,route=LHR-LAX,type2=777-200,type3=777-200ER,registration=N760AN,manufacturer=Boeing,cabin=J,seat=7H,seat_type=A
 date=20231203,desig=BA,number=467,mkt_cxr=British Airways,route=MAD-LHR,type2=A320,type3=A320-200,registration=G-EUYW,manufacturer=Airbus,seat=15C,cabin=Y,seat_type=A
 date=20231203,desig=IB,number=8763,mkt_cxr=Iberia Regional,adm_cxr=Air Nostrum,route=BLQ-MAD,type2=CRJ-1000,type3=CRJ-1000,registration=EC-MJP,manufacturer=Bombardier,seat=17F,cabin=Y,seat_type=W
