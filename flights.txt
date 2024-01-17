@@ -1,4 +1,4 @@
-date=20240114,desig=AA,number=136,mkt_cxr=American Airlines,route=LAX-LHR,type2=777-200,type3=777-200ER,registration=N776AN,manufacturer=Boeing,cabin=J,seat=1L,seat_type=WA
+date=20240114,desig=AA,number=136,mkt_cxr=American Airlines,route=LAX-LHR,type2=777-200,type3=777-200ER,registration=N776AN,manufacturer=Boeing,cabin=J,seat=1L,seat_type=WA,trip_pics=20231221_114315.jpg;20231221_153945.jpg;20231221_171334.jpg;20231223_142942.jpg;20231223_143258.jpg;20231223_172157.jpg;20240109_213955.jpg;20240114_114249.jpg
 date=20240114,desig=AA,number=2366,mkt_cxr=American Airlines,route=DFW-SAN,type2=A321,type3=A321-200,registration=N988AL,manufacturer=Airbus,cabin=Y,seat=15A,seat_type=W
 date=20231231,desig=AA,number=3773,mkt_cxr=American Eagle,adm_cxr=Envoy Air,route=LBB-DFW,type2=E-175,type3=E-175,registration=N237NN,manufacturer=Embraer,cabin=F,seat=1F,seat_type=W
 date=20231231,desig=AA,number=3082,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=DFW-ROW,type2=CRJ-700,type3=CRJ-700,registration=N727SK,manufacturer=Bombardier,cabin=F,seat=1C,seat_type=A
