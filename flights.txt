@@ -1,3 +1,13 @@
+date=20240308,desig=FR,number=3801,mkt_cxr=Ryanair,route=BHX-BCN,type2=737-800,type3=737-800,registration=EI-DCO,manufacturer=Boeing,cabin=Y,seat=2A,seat_type=W,std=2115,sta=0025+1
+date=20240303,desig=BA,number=749,mkt_cxr=British Airways,route=BSL-LHR,type2=A320,type3=A320-200,registration=G-EUUJ,manufacturer=Airbus,cabin=Y,seat=25D,seat_type=A,std=1740,sta=1825
+date=20240301,desig=BA,number=750,mkt_cxr=British Airways,route=LHR-BSL,type2=A320,type3=A320-200,registration=G-EUUT,manufacturer=Airbus,cabin=Y,seat=24C,seat_type=A,std=1605,sta=1845,trip_pics=20240303_153358.jpg;20240302_161346.jpg;20240302_110947.jpg
+date=20240225,desig=FR,number=,mkt_cxr=Ryanair,route=BZR-LTN,type2=737-800,type3=737-800,registration=EI-DWO,manufacturer=Boeing,cabin=Y,seat=15A,seat_type=W,std=1635,sta=1735
+date=20240223,desig=AF,number=7551,mkt_cxr=Air France,route=LHR-NCE,type2=A318,type3=A318-100,registration=F-GUGR,manufacturer=Airbus,cabin=Y,std=0855,sta=1200,trip_pics=20240223_165327.jpg;20240223_190306.jpg;20240224_155620.jpg;20240224_205617.jpg;20240225_112753.jpg
+date=20240219,desig=U2,number=2954,mkt_cxr=easyJet,route=ORY-BRS,type2=A319,type3=A319-100,registration=G-EZGK,manufacturer=Airbus,cabin=Y,std=1730,sta=1750
+date=20240218,desig=AF,number=1377,mkt_cxr=Air France,adm_cxr=Air France Hop,route=BIO-CDG,type2=E-190,type3=E-190,registration=F-HBLP,manufacturer=Embraer,cabin=Y,seat=14A,seat_type=W,std=0720,sta=0910,trip_pics=20240218_200501.jpg
+date=20240214,desig=KL,number=1689,mkt_cxr=KLM,adm_cxr=KLM Cityhopper,route=AMS-BIO,type2=E-195E2,type3=E-195E2,registration=PH-NXF,manufacturer=Embraer,cabin=Y,seat=12C,seat_type=A,std=2035,sta=2245,trip_pics=20240215_114140.jpg;20240216_142617.jpg;20240217_154143.jpg;20240217_181103.jpg
+date=20240214,desig=KL,number=920,mkt_cxr=KLM,adm_cxr=German Airways,route=SOU-AMS,type2=E-190,type3=E-190,registration=D-AKJC,manufacturer=Embraer,cabin=Y,seat=12A,seat_type=W,std=1720,sta=1935
+
 date=20240114,desig=AA,number=136,mkt_cxr=American Airlines,route=LAX-LHR,type2=777-200,type3=777-200ER,registration=N776AN,manufacturer=Boeing,cabin=J,seat=1L,seat_type=WA,trip_pics=20231221_114315.jpg;20231221_153945.jpg;20231221_171334.jpg;20231223_142942.jpg;20231223_143258.jpg;20231223_172157.jpg;20240109_213955.jpg;20240114_114249.jpg
 date=20240114,desig=AA,number=2366,mkt_cxr=American Airlines,route=DFW-SAN,type2=A321,type3=A321-200,registration=N988AL,manufacturer=Airbus,cabin=Y,seat=15A,seat_type=W
 date=20231231,desig=AA,number=3773,mkt_cxr=American Eagle,adm_cxr=Envoy Air,route=LBB-DFW,type2=E-175,type3=E-175,registration=N237NN,manufacturer=Embraer,cabin=F,seat=1F,seat_type=W
