@@ -1,4 +1,4 @@
-date=20240325,desig=AA,number=6251,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=PHX-SEA,type2=E-175,type3=E-175,manufacturer=Embraer,seat=18A,seat_type=W,cabin=Y
+date=20240325,desig=AA,number=6251,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=PHX-SEA,type2=E-175,type3=E-175,manufacturer=Embraer,seat=18A,seat_type=W,cabin=Y,registration=N503SY
 date=20240325,desig=AA,number=2386,mkt_cxr=American Airlines,route=SLC-PHX,type2=737-800,type3=737-800,registration=N960NN,manufacturer=Boeing,seat=22A,seat_type=W,cabin=Y
 date=20240320,desig=AA,number=4938,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=LAX-SLC,type2=CRJ-700,type3=CRJ-700,registration=N709SK,manufacturer=Bombardier,seat=17A,seat_type=W,cabin=Y
 date=20240319,desig=AA,number=139,mkt_cxr=American Airlines,route=LHR-LAX,type2=777-200,type3=777-200ER,registration=N755AN,manufacturer=Boeing,seat=8D,seat_type=A,cabin=J
