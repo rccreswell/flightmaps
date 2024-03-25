@@ -1,5 +1,8 @@
-date=20240319,desig=AA,number=139,mkt_cxr=American Airlines,route=LHR-LAX,type2=777-200,type3=777-200ER,registration=N755AN,manufacturer=Boeing
-date=20240310,desig=FR,number=9803,mkt_cxr=Ryanair,route=GRO-STN,type2=737-800,type3=737-800,registration=EI-DWK,manufacturer=Boeing
+date=20240325,desig=AA,number=6251,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=PHX-SEA,type2=E-175,type3=E-175,manufacturer=Embraer,seat=18A,seat_type=W,cabin=Y
+date=20240325,desig=AA,number=2386,mkt_cxr=American Airlines,route=SLC-PHX,type2=737-800,type3=737-800,registration=N960NN,seat=22A,seat_type=W,cabin=Y
+date=20240320,desig=AA,number=4938,mkt_cxr=American Eagle,adm_cxr=SkyWest Airlines,route=LAX-SLC,type2=CRJ-700,type3=CRJ-700,registration=N709SK,manufacturer=Bombardier,seat=17A,seat_type=W,cabin=Y
+date=20240319,desig=AA,number=139,mkt_cxr=American Airlines,route=LHR-LAX,type2=777-200,type3=777-200ER,registration=N755AN,manufacturer=Boeing,seat=8D,seat_type=A,cabin=J
+date=20240310,desig=FR,number=9803,mkt_cxr=Ryanair,route=GRO-STN,type2=737-800,type3=737-800,registration=EI-DWK,manufacturer=Boeing,seat=2A,cabin=Y,seat_type=W,std=1600,sta=1710
 date=20240308,desig=FR,number=3801,mkt_cxr=Ryanair,route=BHX-BCN,type2=737-800,type3=737-800,registration=EI-DCO,manufacturer=Boeing,cabin=Y,seat=2A,seat_type=W,std=2115,sta=0025+1
 date=20240303,desig=BA,number=749,mkt_cxr=British Airways,route=BSL-LHR,type2=A320,type3=A320-200,registration=G-EUUJ,manufacturer=Airbus,cabin=Y,seat=25D,seat_type=A,std=1740,sta=1825
 date=20240301,desig=BA,number=750,mkt_cxr=British Airways,route=LHR-BSL,type2=A320,type3=A320-200,registration=G-EUUT,manufacturer=Airbus,cabin=Y,seat=24C,seat_type=A,std=1605,sta=1845,trip_pics=20240303_153358.jpg;20240302_161346.jpg;20240302_110947.jpg
