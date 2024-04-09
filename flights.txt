@@ -1,3 +1,4 @@
+date=20240408,desig=KL,number=1015,mkt_cxr=KLM,route=AMS-LHR,type2=E-195E2,type3=E-195E2,registration=PH-NXF,manufacturer=Embraer
 date=20240408,desig=KL,number=1476,mkt_cxr=KLM,route=NCE-AMS,type2=737-800,type3=737-800,registration=PH-BXH,manufacturer=Boeing
 date=20240406,desig=AF,number=7551,mkt_cxr=Air France,route=LHR-NCE,type2=A318,type3=A318-100,registration=F-GUGP,manufacturer=Airbus,cabin=Y,seat=11D,seat_type=A,std=0855,sta=1200
 date=20240403,desig=AA,number=104,mkt_cxr=American Airlines,route=JFK-LHR,type2=777-300,type3=777-300ER,manufacturer=Boeing,seat=4D,seat_type=A,cabin=J,registration=N717AN,std=2250,sta=1050+1,trip_pics=20240402_163242.jpg;20240403_174613.jpg
