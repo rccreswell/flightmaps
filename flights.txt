@@ -1,3 +1,5 @@
+date=20240412,desig=SK,number=1257,mkt_cxr=Scandinavian Airlines,adm_cxr=Xfly,route=CPH-AAR,type2=72,type3=72-600,registration=ES-ATD,manufacturer=ATR
+date=20240412,desig=SK,number=2534,mkt_cxr=Scandinavian Airlines,adm_cxr=SAS Link,route=BHX-CPH,type2=E-195,type3=E-195,registration=SE-RSM,manufacturer=Embraer
 date=20240408,desig=KL,number=1015,mkt_cxr=KLM,adm_cxr=KLM Cityhopper,route=AMS-LHR,type2=E-195E2,type3=E-195E2,registration=PH-NXF,manufacturer=Embraer
 date=20240408,desig=KL,number=1476,mkt_cxr=KLM,route=NCE-AMS,type2=737-800,type3=737-800,registration=PH-BXH,manufacturer=Boeing
 date=20240406,desig=AF,number=7551,mkt_cxr=Air France,route=LHR-NCE,type2=A318,type3=A318-100,registration=F-GUGP,manufacturer=Airbus,cabin=Y,seat=11D,seat_type=A,std=0855,sta=1200,trip_pics=20240406_181423.jpg;20240406_204315.jpg;20240407_133458.jpg;20240407_182259.jpg
