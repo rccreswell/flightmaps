@@ -1,3 +1,4 @@
+date=20240416,desig=U2,number=8194,mkt_cxr=easyJet,route=KLX-LGW,type2=A319,type3=A319-100,registration=G-EZDN,manufacturer=Airbus
 date=20240413,desig=A3,number=408,mkt_cxr=Aegean Airlines,route=CPH-GOT-KLX,type2=A320,type3=A320-200,registration=SX-DVN,manufacturer=Airbus
 date=20240412,desig=SK,number=1257,mkt_cxr=Scandinavian Airlines,adm_cxr=Xfly,route=CPH-AAR,type2=72,type3=72-600,registration=ES-ATD,manufacturer=ATR
 date=20240412,desig=SK,number=2534,mkt_cxr=Scandinavian Airlines,adm_cxr=SAS Link,route=BHX-CPH,type2=E-195,type3=E-195,registration=SE-RSM,manufacturer=Embraer
