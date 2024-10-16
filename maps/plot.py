@@ -115,11 +115,11 @@ def plot_map(flights,
         bounds = (-180, 180, -90, 90)
 
 
-    ax.add_feature(cartopy.feature.LAND, color='#fad9ae', zorder=100)
+    ax.add_feature(cartopy.feature.LAND, color='#fad9ae', zorder=1)
     ax.add_feature(cartopy.feature.OCEAN, color='#8eb8b4', alpha=0.6)
     ax.add_feature(cartopy.feature.LAKES, color='#8eb8b4', alpha=0.6)
-    ax.add_feature(cartopy.feature.COASTLINE,linewidth=0.4, zorder=102)
-    ax.add_feature(cartopy.feature.BORDERS, linewidth=0.4, zorder=103)
+    ax.add_feature(cartopy.feature.COASTLINE,linewidth=0.4, zorder=2)
+    ax.add_feature(cartopy.feature.BORDERS, linewidth=0.4, zorder=3)
 
 
     if states:
@@ -142,22 +142,22 @@ def plot_map(flights,
                     (start[0], end[0]),
                     color='k',
                     lw=1,
-                    zorder=100,
+                    zorder=1,
                     transform=ccrs.Geodetic())
 
     texts = []
     for airport in airports.values():
         ax.scatter(
             airport.lon, airport.lat,
-            color='k', s=20, zorder=105, transform=ccrs.PlateCarree())
+            color='k', s=20, zorder=5, transform=ccrs.PlateCarree())
         ax.scatter(
             airport.lon, airport.lat,
-            color='white', s=3.25, zorder=106, transform=ccrs.PlateCarree())
+            color='white', s=3.25, zorder=6, transform=ccrs.PlateCarree())
 
         if labels:
             if bounds[0] < airport.lon < bounds[1] and bounds[2] < airport.lat < bounds[3]:
                 t = ax.text(airport.lon, airport.lat, airport.iata, size=6.75,
-                    zorder=107 + airport_counts[airport],
+                    zorder=7 + airport_counts[airport],
                     transform=ccrs.PlateCarree(), ha='center', va='center',
                     bbox={'facecolor': 'white', 'alpha': 1.0, 'edgecolor': 'k',
                           'boxstyle': 'round'})
