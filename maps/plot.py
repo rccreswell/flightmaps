@@ -142,7 +142,7 @@ def plot_map(flights,
                     (start[0], end[0]),
                     color='k',
                     lw=1,
-                    zorder=1,
+                    zorder=4,
                     transform=ccrs.Geodetic())
 
     texts = []
