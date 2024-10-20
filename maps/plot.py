@@ -129,7 +129,7 @@ def plot_map(flights,
             scale='110m',
             edgecolor='k',
             facecolor='none')
-        ax.add_feature(usa_states, linewidth=0.3, zorder=104)
+        ax.add_feature(usa_states, linewidth=0.3, zorder=4)
 
     airport_counts = collections.Counter()
     for flight in flights:
@@ -142,22 +142,22 @@ def plot_map(flights,
                     (start[0], end[0]),
                     color='k',
                     lw=1,
-                    zorder=4,
+                    zorder=5,
                     transform=ccrs.Geodetic())
 
     texts = []
     for airport in airports.values():
         ax.scatter(
             airport.lon, airport.lat,
-            color='k', s=20, zorder=5, transform=ccrs.PlateCarree())
+            color='k', s=20, zorder=6, transform=ccrs.PlateCarree())
         ax.scatter(
             airport.lon, airport.lat,
-            color='white', s=3.25, zorder=6, transform=ccrs.PlateCarree())
+            color='white', s=3.25, zorder=7, transform=ccrs.PlateCarree())
 
         if labels:
             if bounds[0] < airport.lon < bounds[1] and bounds[2] < airport.lat < bounds[3]:
                 t = ax.text(airport.lon, airport.lat, airport.iata, size=6.75,
-                    zorder=7 + airport_counts[airport],
+                    zorder=6 + airport_counts[airport],
                     transform=ccrs.PlateCarree(), ha='center', va='center',
                     bbox={'facecolor': 'white', 'alpha': 1.0, 'edgecolor': 'k',
                           'boxstyle': 'round'})
