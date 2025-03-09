@@ -1,0 +1,54 @@
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+      
+permissions: 
+  contents: write
+
+name: Run python
+
+jobs:
+  build_site:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: setup-conda
+        uses: s-weigand/setup-conda@v1.2.4
+
+      - name: Install package
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install .
+
+      - name: Install cartopy
+        run: |
+          conda install cartopy
+      
+      - name: Make folder
+        run: |
+          mkdir public
+      
+      - name: Generate html site
+        run: |
+          python make.py
+          
+      - name: Copy over necessary files
+        run: |
+          cp jquery-3.7.1.slim.min.js public/jquery-3.7.1.slim.min.js
+          cp style.css public/style.css
+          cp toggle.js public/toggle.js
+          # cp -r data/pictures/. public/
+        
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
