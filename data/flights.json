@@ -1,4 +1,15 @@
 [
+ {"date": "20250510",
+  "desig": "KG",
+  "number": "820",
+  "mkt_cxr": "King Island Airlines",
+  "route": "MBW-KNS",
+  "type2": "Chieftain",
+  "type3": "Chieftain",
+  "registration": "VH-KIB",
+  "manufacturer": "Piper",
+  "msn": "31-7305035"
+ },
  {
   "date": "20250207",
   "desig": "QF",
