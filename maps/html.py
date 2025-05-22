@@ -578,6 +578,9 @@ def make_html(flights, airports):
                 table = HtmlTableLocations(flights, airports, attr='region', restrict=('country', 'United States'), title='American states')
                 doc.asis(str(table))
 
+                table = HtmlTableLocations(flights, airports, attr='region', restrict=('country', 'France'), title='French Regions')
+                doc.asis(str(table))
+
                 table = HtmlTableLocations(flights, airports, attr='region', restrict=('country', 'Australia'), title='Australian states')
                 doc.asis(str(table))
 
