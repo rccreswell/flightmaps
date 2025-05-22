@@ -15,7 +15,7 @@ DXB,DXB,OMDB,25.252778,55.364444,Dubai International Airport,Dubai,Dubai,United 
 FCO,FCO,LIRF,41.800278,12.238889,Fiumicino International Airport,Rome,Lazio,Italy,Europe
 MXP,MXP,LIMC,45.63,8.723056,Malpensa International Airport,Milan,Lombardy,Italy,Europe
 MAD,MAD,LEMD,40.472222,-3.560833,Barajas International Airport,Madrid,Madrid,Spain,Europe
-CDG,CDG,LFPG,49.009722,2.547778,Paris Charles de Gaulle Airport,Paris,Ile-de-France,France,Europe
+CDG,CDG,LFPG,49.009722,2.547778,Paris Charles de Gaulle Airport,Paris,Île-de-France,France,Europe
 XNA,XNA,KXNA,36.281667,-94.307778,Northwest Arkansas Regional Airport,Fayetteville,Arkansas,United States,North America
 YYZ,YYZ,CYYZ,43.676667,-79.630556,Toronto Pearson International Airport,Toronto,Ontario,Canada,North America
 NRT,NRT,RJAA,35.765278,140.385556,Narita International Airport,Tokyo,Kanto,Japan,Asia
@@ -42,7 +42,7 @@ MAN,MAN,EGCC,53.353889,-2.275,Manchester Airport,Manchester,Lancashire,England,E
 BHX,BHX,EGBB,52.453889,-1.748056,Birmingham Airport,Birmingham,West Midlands,England,Europe
 LTN,LTN,EGGW,51.874722,-0.368333,London Luton Airport,London,Bedfordshire,England,Europe
 LCY,LCY,EGLC,51.505278,0.055278,London City Airport,London,Greater London,England,Europe
-MPL,MPL,LFMT,43.576389,3.963056,Montpellier-Mediterranee Airport,Montpellier,Languedoc-Roussillon,France,Europe
+MPL,MPL,LFMT,43.576389,3.963056,Montpellier-Mediterranee Airport,Montpellier,Occitània,France,Europe
 ZRH,ZRH,LSZH,47.464722,8.549167,Zurich Airport,Zurich,Zurich,Switzerland,Europe
 MUC,MUC,EDDM,48.353889,11.786111,Munich Airport,Munich,Bavaria,Germany,Europe
 SXF,SXF,EDDB,52.378611,13.520556,Berlin Schonefeld Airport,Berlin,Brandenburg,Germany,Europe
@@ -89,7 +89,7 @@ FAT,FAT,KFAT,36.776194,-119.71814,Fresno Yosemite International Airport,Fresno,C
 OAK,OAK,KOAK,37.721278,-122.220722,Oakland International Airport,Oakland,California,United States,North America
 SJC,SJC,KSJC,37.3626,-121.929022,San Jose International Airport,San Jose,California,United States,North America
 ANC,ANC,PANC,61.174361,-149.996361,Ted Stevens Anchorage International Airport,Anchorage,Alaska,United States,North America
-COS,COS,KCOS,38.805805,-104.700778,Colorado Springs Airport,Colorado,Colorado,United States,North America
+COS,COS,KCOS,38.805805,-104.700778,Colorado Springs Airport,Colorado Springs,Colorado,United States,North America
 MSP,MSP,KMSP,44.881956,-93.221767,Minneapolis-Saint Paul International Airport,Minneapolis,Minnesota,United States,North America
 MQT,MQT,KMQT,46.353611,-87.395278,Sawyer International Airport,Marquette,Michigan,United States,North America
 MKE,MKE,KMKE,42.947222,-87.896583,General Mitchell International Airport,Milwaukee,Wisconsin,United States,North America
@@ -193,16 +193,16 @@ LUX,LUX,ELLX,49.623333,6.204444,Luxembourg Airport,Luxembourg,Luxembourg City,Lu
 NNR,NNR,EICA,53.230556,-9.467778,Connemara Airport,Inverin,County Galway,Ireland,Europe
 INQ,INQ,EIIR,53.064444,-9.511111,Inisheer Aerodrome,Inisheer,County Galway,Ireland,Europe
 IOR,IOR,EIIM,53.106944,-9.653889,Inishmore Aerodrome,Kilronan,County Galway,Ireland,Europe
-TLS,TLS,LFBO,43.635,1.367778,Toulouse-Blagnac Airport,Toulouse,Occitanie,France,Europe
+TLS,TLS,LFBO,43.635,1.367778,Toulouse-Blagnac Airport,Toulouse,Occitània,France,Europe
 TRD,TRD,ENVA,63.4575,10.924167,Trondheim Airport Værnes,Trondheim,Trondelag,Norway,Europe
 RDD,RDD,KRDD,40.508889,-122.293333,Redding Municipal Airport,Redding,California,United States,North America
 JER,JER,EGJJ,49.208056,-2.195278,Jersey Airport,Saint Peter,Saint Peter,Jersey,Europe
 SOU,SOU,EGHI,50.950278,-1.356667,Southampton Airport,Southampton,Hampshire,England,Europe
-NTE,NTE,LFRS,47.156944,-1.607778,Aéroport Nantes Atlantique,Nantes,Loire-Atlantique,France,Europe
+NTE,NTE,LFRS,47.156944,-1.607778,Aéroport Nantes Atlantique,Nantes,Pays de la Loire,France,Europe
 CTA,CTA,LICC,37.466667,15.063889,Catania-Fontanarossa Airport,Catania,Sicily,Italy,Europe
 PMO,PMO,LICJ,38.181944,13.099444,Falcone Borsellino Airport,Palermo,Sicily,Italy,Europe
 OVD,OVD,LEAS,43.563611,-6.034722,Asturias Airport,Oviedo,Asturias,Spain,Europe
-NCE,NCE,LFMN,43.665278,7.215,Nice Côte d'Azur Airport,Nice,Alpes-Maritimes,France,Europe
+NCE,NCE,LFMN,43.665278,7.215,Nice Côte d'Azur Airport,Nice,Provence-Alpes-Côte d'Azur,France,Europe
 LYS,LYS,LFLL,45.725556,5.081111,Aéroport Lyon-Saint Exupéry,Lyon,Auvergne-Rhône-Alpes,France,Europe
 BFL,BFL,KBFL,35.433889,-119.057778,Meadows Field Airport,Bakersfield,California,United States,North America
 CHS,CHS,KCHS,32.898611,-80.040556,Charleston International Airport,Charleston,South Carolina,United States,North America
@@ -211,7 +211,7 @@ OPO,OPO,LPPR,41.235556,-8.678056,Francisco Sá Carneiro Airport,Porto,Oporto,Por
 LCG,LCG,LECO,43.301944,-8.377222,A Coruña Airport,A Coruña,Galicia,Spain,Europe
 SCQ,SCQ,LEST,42.896389,-8.415278,Aeroporto de Santiago-Rosalía de Castro,Santiago de Compostela,Galicia,Spain,Europe
 AJA,AJA,LFKJ,41.923889,8.8025,Aéroport d'Ajaccio-Napoléon-Bonaparte,Ajaccio,Corsica,France,Europe
-MRS,MRS,LFML,43.436667,5.215,Aéroport Marseille-Provence,Marseille,Bouches-du-Rhône,France,Europe
+MRS,MRS,LFML,43.436667,5.215,Aéroport Marseille-Provence,Marseille,Provence-Alpes-Côte d'Azur,France,Europe
 NQY,NQY,EGHQ,50.440833,-4.995278,Cornwall Airport Newquay,Newquay,Cornwall,England,Europe
 RTM,RTM,EHRD,51.956944,4.440278,Rotterdam The Hague Airport,Rotterdam,South Holland,Netherlands,Europe
 BOI,BOI,KBOI,43.564444,-116.222778,Boise Airport,Boise,Idaho,United States,North America
@@ -241,8 +241,8 @@ YUM,YUM,KNYL,32.656667,-114.606111,Yuma International Airport,Yuma,Arizona,Unite
 ROW,ROW,KROW,33.301556,-104.530556,Roswell Industrial Air Center,Roswell,New Mexico,United States,North America
 ORY,ORY,LFPO,48.723333,2.379444,Aéroport de Paris-Orly,Paris,Île-de-France,France,Europe
 BRS,BRS,EGGD,51.382778,-2.719167,Bristol Airport,Bristol,Somerset,England,Europe
-BZR,BZR,LFMU,43.323333,3.353333,Béziers Cap d'Agde Airport,Béziers,Occitania,France,Europe
-BSL,BSL,LFSB,47.59,7.529167,EuroAirport Basel Mulhouse Freiburg,Basel,Alsace,France,Europe
+BZR,BZR,LFMU,43.323333,3.353333,Béziers Cap d'Agde Airport,Béziers,Occitània,France,Europe
+BSL,BSL,LFSB,47.59,7.529167,EuroAirport Basel Mulhouse Freiburg,Basel,Grand Est,France,Europe
 GRO,GRO,LEGE,41.900833,2.760556,Aeroport de Girona-Costa Brava,Girona,Catalonia,Spain,Europe
 AAR,AAR,EKAH,56.304167,10.619167,Aarhus Airport,Aarhus,Midtjylland,Denmark,Europe
 GOT,GOT,ESGG,57.66,12.291111,Göteborg Landvetter Airport,Gothenburg,Västra Götalands,Sweden,Europe
