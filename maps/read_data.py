@@ -94,7 +94,7 @@ class Flight:
                  route=None,
                  date=None,
                  desig=None,
-                 mkt_cxr=None,
+                 cxr=None,
                  number=None,
                  type2=None,
                  type3=None,
@@ -114,7 +114,7 @@ class Flight:
                  ata=None,
                  pics=None,
                  trip_pics=None,
-                 adm_cxr=None,
+                 ope_cxr=None,
                  price=None,
                  notes=None,
                  gates=None,
@@ -128,8 +128,8 @@ class Flight:
          self.route_string = route
          self.date = date
          self.desig = desig
-         self.mkt_cxr = mkt_cxr
-         self.adm_cxr = adm_cxr or ''
+         self.cxr = cxr
+         self.ope_cxr = ope_cxr or ''
          self.number = number
          self.type2 = type2.replace('-', '‒')
          self.type3 = type3.replace('-', '‒')
