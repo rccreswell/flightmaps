@@ -406,10 +406,10 @@ class LogTable:
                         doc.asis(flight.route_str)
 
                     with tag('td'):
-                        if flight.adm_cxr != flight.mkt_cxr and flight.adm_cxr != None and flight.adm_cxr != '':
-                            doc.text(f'{flight.mkt_cxr} (operated by {flight.adm_cxr})')
+                        if flight.ope_cxr != flight.cxr and flight.ope_cxr != None and flight.cxr != '':
+                            doc.text(f'{flight.cxr} (operated by {flight.ope_cxr})')
                         else:
-                            doc.text(flight.mkt_cxr)
+                            doc.text(flight.cxr)
 
                     with tag('td'):
                         doc.text(f'{flight.manufacturer} {flight.type3} ({flight.registration})')
@@ -556,7 +556,7 @@ def make_html(flights, airports):
                 table = HtmlTableAirplanes(flights, ['manufacturer', 'type2'], title='Airplanes')
                 doc.asis(str(table))
 
-                table = HtmlTableDropdown(flights, 'mkt_cxr', 'adm_cxr', title='Airlines')
+                table = HtmlTableDropdown(flights, 'cxr', 'ope_cxr', title='Airlines')
                 doc.asis(str(table))
 
                 table = HtmlTableAirplanes(flights, ['manufacturer'], title='Manufacturers')
