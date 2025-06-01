@@ -406,7 +406,7 @@ class LogTable:
                         doc.asis(flight.route_str)
 
                     with tag('td'):
-                        if flight.ope_cxr != flight.cxr and flight.ope_cxr != None and flight.cxr != '':
+                        if flight.ope_cxr != flight.cxr and flight.cxr != None and flight.ope_cxr != '':
                             doc.text(f'{flight.cxr} (operated by {flight.ope_cxr})')
                         else:
                             doc.text(flight.cxr)
