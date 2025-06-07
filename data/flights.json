@@ -1,5 +1,35 @@
 [
   {
+   "date": "20250607",
+   "desig": "QF",
+   "number": "1880",
+   "cxr": "QantasLink",
+   "ope_cxr": "Alliance Airlines",
+   "route": "BNE-CNS",
+   "type2": "E-190",
+   "type3": "E-190",
+   "registration": "VH-UZI",
+   "manufacturer": "Embraer",
+   "msn": "191",
+   "std": "0605",
+   "sta": "0835"
+ },
+  {
+   "date": "20250606",
+   "desig": "QF",
+   "number": "1264",
+   "cxr": "QantasLink",
+    "ope_cxr": "National Jet Systems",
+   "route": "MEL-BNE",
+   "type2": "CS300",
+   "type3": "CS300",
+   "registration": "VH-X4A",
+   "manufacturer": "Bombardier",
+   "msn": "55253",
+   "std": "2200",
+   "sta": "0020+1"
+ },
+  {
    "date": "20250601",
    "desig": "VA",
    "number": "358",
