@@ -294,9 +294,9 @@ class HtmlTableLocations(HtmlTable):
 
     def __str__(self):
         if not self.dropdown:
-            super().__str__()
+            return super().__str__()
         else:
-            self.dropdown_table.__str__()
+            return self.dropdown_table.__str__()
 
 
 class HtmlTableCities(HtmlTable):
