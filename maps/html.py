@@ -233,7 +233,7 @@ class SuperTable:
 
 
 class HtmlTableLocations(HtmlTable):
-    def __init__(self, flights, airports, attr=None, restrict=None, title=None):
+    def __init__(self, flights, airports, attr=None, restrict=None, title=None, dropdown_attrs1=None, dropdown_attr2=None):
         """
         restrict : (attr(str), value(str))
         """
@@ -262,6 +262,41 @@ class HtmlTableLocations(HtmlTable):
             super().__init__(title, [x[0].write_airport() for x in counts], [x[1] for x in counts], html=True)
         else:
             super().__init__(title, [x[0] for x in counts], [x[1] for x in counts], html=True)
+
+        self.dropdown = False
+        if dropdown_attrs1 is not None and dropdown_attr2 is not None:
+            row_names = [x[0] for x in counts]
+            counts = [x[1] for x in counts]
+            row_subtables = []
+            
+            for row in row_names:
+                if row in dropdown_attrs1:
+                    list_of_attrs = [getattr(a, dropdown_attr2) for a in all_airports if getattr(a, attr) == row]
+
+                    if len(set(list_of_attrs)) == 1 and list_of_attrs[0] == '':
+                        row_subtables.append(None)
+
+                    else:
+                        list_of_attrs = [x for x in list_of_attrs if x != '']
+                        subcounts = collections.Counter(list_of_attrs)
+                        subcounts = sorted(subcounts.most_common(), key=lambda x: (-x[1], x[0]))
+                        row_subtables.append(([x[0] for x in subcounts], [x[1] for x in subcounts]))
+                else:
+                    row_subtables.append(None)
+                    
+            self.row_subtables = row_subtables
+            super().__init__(title, row_names, counts)
+            self.dropdown = True
+            self.dropdown_table = HtmlTableDropdown(flights, 'cxr', 'ope_cxr', title='Countries')
+            self.dropdown_table.row_names = row_names
+            self.dropdown_table.counts = counts
+            self.dropdown_table.row_subtables = row_subtables
+
+    def __str__(self):
+        if not self.dropdown:
+            super().__str__()
+        else:
+            self.dropdown_table.__str__()
 
 
 class HtmlTableCities(HtmlTable):
