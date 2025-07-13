@@ -23,6 +23,7 @@ jobs:
 
       - name: Install package
         run: |
+          conda update --force conda
           python -m pip install --upgrade pip setuptools wheel
           python -m pip install .
 
