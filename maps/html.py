@@ -253,7 +253,7 @@ class HtmlTableLocations(HtmlTable):
             counts = sorted(counts.most_common(), key=lambda x: (-x[1], x[0]))
 
         else:
-            counts = collections.Counter(all_airports)
+            counts = collections.Counter(all_airports_objects)
             counts = sorted(counts.most_common(), key=lambda x: (-x[1], x[0].iata or x[0].name))
 
         if title is None:
