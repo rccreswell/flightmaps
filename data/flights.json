@@ -1,5 +1,33 @@
 [
   {
+   "date": "20250609",
+   "desig": "VA",
+   "number": "358",
+   "cxr": "Virgin Australia",
+   "route": "BNE-MEL",
+   "type2": "737-800",
+   "type3": "737-800",
+   "registration": "VH-VOK",
+   "manufacturer": "Boeing",
+   "msn": "33758",
+   "ln": "1359",
+   "std": "2125",
+   "sta": "2350",
+ },
+  {
+   "date": "20250609",
+   "desig": "VA",
+   "number": "382",
+   "cxr": "Virgin Australia",
+   "ope_cxr": "Alliance Airlines",
+   "route": "TSV-BNE",
+   "type2": "100",
+   "type3": "100",
+   "registration": "VH-XWR",
+   "manufacturer": "Fokker",
+   "msn": "11306"
+ },
+  {
    "date": "20250607",
    "desig": "QF",
    "number": "1880",
@@ -29,7 +57,7 @@
    "std": "2200",
    "sta": "0020+1"
  },
-  {
+ {
    "date": "20250601",
    "desig": "VA",
    "number": "358",
