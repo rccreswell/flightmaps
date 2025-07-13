@@ -237,17 +237,17 @@ class HtmlTableLocations(HtmlTable):
         """
         restrict : (attr(str), value(str))
         """
-        all_airports = []
+        all_airports_objects = []
         for flight in flights:
-            all_airports += list(flight.route[0])
+            all_airports_objects += list(flight.route[0])
             for leg in flight.route[1:]:
-                all_airports += [leg[1]]
+                all_airports_objects += [leg[1]]
 
         if attr is not None:
             if restrict is not None:
-                all_airports = [getattr(a, attr) for a in all_airports if getattr(a, restrict[0]) == restrict[1]]
+                all_airports = [getattr(a, attr) for a in all_airports_objects if getattr(a, restrict[0]) == restrict[1]]
             else:
-                all_airports = [getattr(a, attr) for a in all_airports]
+                all_airports = [getattr(a, attr) for a in all_airports_objects]
 
             counts = collections.Counter(all_airports)
             counts = sorted(counts.most_common(), key=lambda x: (-x[1], x[0]))
@@ -271,7 +271,7 @@ class HtmlTableLocations(HtmlTable):
             
             for row in row_names:
                 if row in dropdown_attrs1:
-                    list_of_attrs = [getattr(a, dropdown_attr2) for a in all_airports if getattr(a, attr) == row]
+                    list_of_attrs = [getattr(a, dropdown_attr2) for a in all_airports_objects if getattr(a, attr) == row]
 
                     if len(set(list_of_attrs)) == 1 and list_of_attrs[0] == '':
                         row_subtables.append(None)
