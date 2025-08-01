@@ -1,5 +1,23 @@
 [
   {
+   "date": "20250801",
+   "desig": "QF",
+   "number": "1793",
+   "cxr": "QantasLink",
+   "ope_cxr": "Alliance Airlines",
+   "route": "MEL-ADL",
+   "type2": "E-190",
+   "type3": "E-190",
+   "registration": "VH-XVB",
+   "manufacturer": "Embraer",
+   "msn": "58",
+   "seat": "24F",
+   "cabin": "Y",
+   "seat_type": "W",
+   "std": "1850",
+   "sta": "1940"
+  },
+  {
    "date": "20250609",
    "desig": "VA",
    "number": "358",
@@ -13,7 +31,7 @@
    "ln": "1359",
    "std": "2125",
    "sta": "2350"
- },
+  },
   {
    "date": "20250609",
    "desig": "VA",
@@ -26,7 +44,7 @@
    "registration": "VH-XWR",
    "manufacturer": "Fokker",
    "msn": "11306"
- },
+  },
   {
    "date": "20250607",
    "desig": "QF",
@@ -41,7 +59,7 @@
    "msn": "191",
    "std": "0605",
    "sta": "0835"
- },
+  },
   {
    "date": "20250606",
    "desig": "QF",
@@ -58,22 +76,22 @@
    "sta": "0020+1"
  },
  {
-   "date": "20250601",
-   "desig": "VA",
-   "number": "358",
-   "cxr": "Virgin Australia",
-   "route": "BNE-MEL",
-   "type2": "737-800",
-   "type3": "737-800",
-   "registration": "VH-VUL",
-   "manufacturer": "Boeing",
-   "msn": "36603",
-   "ln": "2356",
-   "std": "2125",
-   "sta": "2350",
-   "seat": "14C",
-   "cabin": "Y",
-   "seat_type": "A"
+  "date": "20250601",
+  "desig": "VA",
+  "number": "358",
+  "cxr": "Virgin Australia",
+  "route": "BNE-MEL",
+  "type2": "737-800",
+  "type3": "737-800",
+  "registration": "VH-VUL",
+  "manufacturer": "Boeing",
+  "msn": "36603",
+  "ln": "2356",
+  "std": "2125",
+  "sta": "2350",
+  "seat": "14C",
+  "cabin": "Y",
+  "seat_type": "A"
  },
  {
   "date": "20250601",
