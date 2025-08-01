@@ -1,5 +1,23 @@
 [
   {
+   "date": "20250802",
+   "desig": "QF",
+   "number": "1954",
+   "cxr": "QantasLink",
+   "ope_cxr": "Alliance Airlines",
+   "route": "ADL-ASP",
+   "type2": "E-190",
+   "type3": "E-190",
+   "registration": "VH-XVS",
+   "manufacturer": "Embraer",
+   "msn": "62",
+   "seat": "24F",
+   "cabin": "Y",
+   "seat_type": "W",
+   "std": "0625",
+   "sta": "0835"
+  },
+  {
    "date": "20250801",
    "desig": "QF",
    "number": "1793",
