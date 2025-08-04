@@ -1,5 +1,42 @@
 [
   {
+   "date": "20250803",
+   "desig": "VA",
+   "number": "248",
+   "cxr": "Virgin Australia",
+   "route": "ADL-MEL",
+   "type2": "737-800",
+   "type3": "737-800",
+   "registration": "VH-YIQ",
+   "manufacturer": "Boeing",
+   "msn": "38715",
+   "ln": "4156",
+   "seat": "25A",
+   "cabin": "Y",
+   "seat_type": "W",
+   "std": "2205",
+   "sta": "2355"
+  },
+  {
+   "date": "20250803",
+   "desig": "QF",
+   "number": "1957",
+   "cxr": "QantasLink",
+   "ope_cxr": "Alliance Airlines",
+   "route": "ASP-ADL",
+   "type2": "E-190",
+   "type3": "E-190",
+   "registration": "VH-XVS",
+   "manufacturer": "Embraer",
+   "msn": "62",
+   "seat": "8E",
+   "cabin": "Y",
+   "seat_type": "A",
+   "std": "1835",
+   "sta": "2040",
+   "pics": "IMG_0953_th.jpeg"
+  },
+  {
    "date": "20250802",
    "desig": "QF",
    "number": "1954",
@@ -16,6 +53,7 @@
    "seat_type": "W",
    "std": "0625",
    "sta": "0835"
+   "pics": "IMG_0892_th.jpeg;IMG_0905_th.jpeg;IMG_0909_th.jpeg;IMG_0934_th.jpeg"
   },
   {
    "date": "20250801",
@@ -77,6 +115,7 @@
    "msn": "191",
    "std": "0605",
    "sta": "0835"
+   "pics": "IMG_0750_th.jpeg;IMG_0789_th.jpeg"
   },
   {
    "date": "20250606",
@@ -213,7 +252,7 @@
   "manufacturer": "Bombardier",
   "cabin": "Y",
   "msn": "55253",
-  "pics": "IMG_0341_th.jpeg"
+  "pics": "IMG_0341_th.jpeg;IMG_0422_th.jpeg;IMG_0395_th.jpeg"
  },
  {
   "date": "20250127",
