@@ -44,7 +44,7 @@ jobs:
           cp jquery-3.7.1.slim.min.js public/jquery-3.7.1.slim.min.js
           cp style.css public/style.css
           cp toggle.js public/toggle.js
-          # cp -r data/pictures/. public/
+          cp -r data/pictures/. public/
         
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
