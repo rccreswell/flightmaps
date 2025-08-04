@@ -111,7 +111,7 @@ img.zoom {
     border: 1px solid #ddd;
     border-radius: 1px;
     padding: 3px;
-    height: 140px;
+    height: 72px;
 }
 
 * {
@@ -251,3 +251,4 @@ abbr {
     display: inline-block;
     margin-right: 5px;
 }
+
