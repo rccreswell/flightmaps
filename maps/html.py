@@ -451,13 +451,15 @@ class LogTable:
 
                     with tag('td'):
                         if flight.pics is not None:
-                            for pic in flight.pics:
+                            for pic in flight.pics[:4]:
                                 full_filename = pic.split('.')
                                 full_filename[-2] = full_filename[-2][:-3]
                                 full_filename = '.'.join(full_filename)
                                 link = 'https://f004.backblazeb2.com/file/flightmaps/{}'.format(full_filename)
                                 with tag('a', target='_blank', href=link):
                                     doc.stag('img', loading='lazy', src=pic, klass='log')
+                            if len(flight.pics) > 4:
+                                doc.asis('<span>&#8943;</span>')
                             if flight.trip_pics is not None:
                                 # doc.asis('<span class="material-symbols-rounded" style="font-size:140%;">travel</span>')
                                 doc.asis('<span class="material-symbols-rounded" style="font-size:140%;">landscape</span>')
@@ -701,5 +703,6 @@ def make_html(flights, airports):
             doc.asis('function clean(node){for(var n = 0; n < node.childNodes.length; n ++){var child = node.childNodes[n];if(child.nodeType === 8 || (child.nodeType === 3 && !/\S/.test(child.nodeValue))){node.removeChild(child);n --;}else if(child.nodeType === 1){clean(child);}}}')
 
     return indent(doc.getvalue())
+
 
 
