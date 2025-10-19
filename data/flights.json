@@ -14,7 +14,8 @@
    "cabin": "Y",
    "seat_type": "A",
    "std": "2255",
-   "sta": "0525+1"
+   "sta": "0525+1",
+   "pics": "IMG_1700_th.jpeg"
   },
   {
    "date": "20251019",
@@ -69,7 +70,8 @@
    "cabin": "Y",
    "seat_type": "A",
    "std": "1955",
-   "sta": "2105"
+   "sta": "2105",
+   "pics": "IMG_1571_th.jpeg"
   },
   {
    "date": "20250928",
