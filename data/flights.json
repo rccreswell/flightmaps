@@ -1,5 +1,38 @@
 [
   {
+   "date": "20251026",
+   "desig": "VA",
+   "number": "878",
+   "cxr": "Virgin Australia",
+   "route": "SYD-MEL",
+   "type2": "737-800",
+   "type3": "737-800",
+   "registration": "VH-YQG",
+   "manufacturer": "Boeing",
+   "msn": "40999",
+   "ln": "3941",
+   "std": "1830",
+   "sta": "2005"
+  },
+  {
+   "date": "20251026",
+   "desig": "VA",
+   "number": "1589",
+   "cxr": "Virgin Australia",
+   "route": "MEL-NTL",
+   "type2": "737-800",
+   "type3": "737-800",
+   "registration": "VH-VUQ",
+   "manufacturer": "Boeing",
+   "msn": "36605",
+   "ln": "2710",
+   "seat": "24F",
+   "cabin": "Y",
+   "seat_type": "W",
+   "std": "0615",
+   "sta": "0755"
+  },
+  {
    "date": "20251019",
    "desig": "QF",
    "number": "764",
