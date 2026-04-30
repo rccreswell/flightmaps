@@ -1,6 +1,6 @@
 [
   {
-   "date": "20260403",
+   "date": "20260405",
    "desig": "SH",
    "number": "816",
    "cxr": "Sharp Airlines",
@@ -31,7 +31,8 @@
    "cabin": "Y",
    "seat_type": "WA",
    "std": "1550",
-   "sta": "1625"
+   "sta": "1625",
+   "pics": "IMG_3214_th.jpeg;IMG_3311_th.jpeg;IMG_3316_th.jpeg;IMG_3341_th.jpeg;IMG_3351_th.jpeg"
   },
   {
    "date": "20260402",
@@ -49,7 +50,8 @@
    "cabin": "Y",
    "seat_type": "A",
    "std": "2145",
-   "sta": "2255"
+   "sta": "2255",
+   "pics": "IMG_3184_th.jpeg"
   },
   {
    "date": "20260329",
@@ -85,7 +87,8 @@
    "cabin": "Y",
    "seat_type": "A",
    "std": "2155",
-   "sta": "2305"
+   "sta": "2305",
+   "pics": "IMG_3030_th.jpeg;IMG_3045_th.jpeg;IMG_3067_th.jpeg"
   },
   {
    "date": "20260314",
@@ -102,7 +105,8 @@
    "cabin": "Y",
    "seat_type": "W",
    "std": "1905",
-   "sta": "0710+1"
+   "sta": "0710+1",
+   "pics": "IMG_2892_th.jpeg"
   },
   {
    "date": "20260314",
@@ -169,7 +173,8 @@
    "msn": "677",
    "seat": "21D",
    "cabin": "W",
-   "seat_type": "A"
+   "seat_type": "A",
+   "pics": "IMG_2400_th.jpeg;IMG_2422_th.jpeg;IMG_2449_th.jpeg"
   },
   {
    "date": "20251230",
