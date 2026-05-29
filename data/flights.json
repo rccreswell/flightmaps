@@ -1,5 +1,19 @@
 [
   {
+   "date": "20260529",
+   "desig": "VA",
+   "number": "1061",
+   "cxr": "Virgin Australia",
+   "route": "MEL-ASP",
+   "type2": "737-800",
+   "type3": "737-800",
+   "registration": "VH-IJW",
+   "manufacturer": "Boeing",
+   "seat": "24D",
+   "cabin": "Y",
+   "seat_type": "A"
+  },
+  {
    "date": "20260517",
    "desig": "VA",
    "number": "1373",
