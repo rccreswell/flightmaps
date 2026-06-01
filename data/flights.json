@@ -1,5 +1,20 @@
 [
   {
+   "date": "20260531",
+   "desig": "VA",
+   "number": "1062",
+   "cxr": "Virgin Australia",
+   "route": "ASP-MEL",
+   "type2": "737-800",
+   "type3": "737-800",
+   "registration": "VH-YIU",
+   "manufacturer": "Boeing",
+   "seat": "9C",
+   "cabin": "Y",
+   "seat_type": "A",
+   "pics": "IMG_3724_th.jpeg"
+  },
+  {
    "date": "20260529",
    "desig": "VA",
    "number": "1061",
@@ -11,7 +26,8 @@
    "manufacturer": "Boeing",
    "seat": "24D",
    "cabin": "Y",
-   "seat_type": "A"
+   "seat_type": "A",
+   "pics": "IMG_3624_th.jpeg;IMG_3633_th.jpeg;IMG_3648_th.jpeg;IMG_3686_th.jpeg;IMG_3710_th.jpeg;IMG_3720_th.jpeg"
   },
   {
    "date": "20260517",
