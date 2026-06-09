@@ -23,7 +23,7 @@
    "type3": "172",
    "registration": "ZK-DXO",
    "manufacturer": "Cessna",
-   "pics": "IMG_3900_th.jpeg‎;IMG_3933_th.jpeg‎;IMG_3948_th.jpeg‎;IMG_3963_th.jpeg‎;IMG_3976_th.jpeg‎;IMG_3994_th.jpeg‎;IMG_4006_th.jpeg‎;IMG_4011_th.jpeg‎"
+   "pics": "IMG_3900_th.jpeg;IMG_3933_th.jpeg;IMG_3948_th.jpeg;IMG_3963_th.jpeg;IMG_3976_th.jpeg;IMG_3994_th.jpeg;IMG_4006_th.jpeg;IMG_4011_th.jpeg"
   },
   {
    "date": "20260606",
@@ -35,7 +35,7 @@
    "type3": "172",
    "registration": "ZK-DXO",
    "manufacturer": "Cessna",
-   "pics": "IMG_3804_th.jpeg‎;IMG_3830_th.jpeg‎;IMG_3836_th.jpeg‎;IMG_3857_th.jpeg‎"
+   "pics": "IMG_3804_th.jpeg;IMG_3830_th.jpeg;IMG_3836_th.jpeg;IMG_3857_th.jpeg‎"
   },
   {
    "date": "20260605",
@@ -50,7 +50,7 @@
    "seat": "26B",
    "cabin": "W",
    "seat_type": "A",
-   "pics": "IMG_3781_th.jpeg‎"
+   "pics": "IMG_3781_th.jpeg"
   },
   {
    "date": "20260531",
