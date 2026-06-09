@@ -163,7 +163,7 @@ def plot_map(flights,
             airport.lon, airport.lat,
             color='white', s=3.25, zorder=7, transform=ccrs.PlateCarree())
 
-        if labels:
+        if labels and airport.iata not in (None, ''):
             if bounds[0] < airport.lon < bounds[1] and bounds[2] < airport.lat < bounds[3]:
                 t = ax.text(airport.lon, airport.lat, airport.iata, size=6.75,
                     zorder=6 + airport_counts[airport],
