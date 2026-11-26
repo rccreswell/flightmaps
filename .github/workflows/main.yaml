@@ -13,20 +13,20 @@ name: Run python
 
 jobs:
   build_site:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     
     steps:
       - uses: actions/checkout@v2
 
-      - name: setup-conda
-        uses: conda-incubator/setup-miniconda@v3
-        with:
-          auto-update-conda: true
-          activate-environment: py312-env
-          python-version: '3.12'
-
       # - name: setup-conda
-      #   uses: s-weigand/setup-conda@v1.2.4
+      #   uses: conda-incubator/setup-miniconda@v3
+      #   with:
+      #     auto-update-conda: true
+      #     activate-environment: py312-env
+      #     python-version: '3.12'
+
+      - name: setup-conda
+        uses: s-weigand/setup-conda@v1.2.4
 
       - name: Install package
         run: |
