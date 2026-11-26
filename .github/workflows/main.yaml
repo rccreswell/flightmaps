@@ -22,6 +22,7 @@ jobs:
         uses: conda-incubator/setup-miniconda@v3
         with:
           auto-update-conda: true
+          activate-environment: py312-env
           python-version: '3.12'
 
       # - name: setup-conda
