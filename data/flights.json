@@ -11,8 +11,7 @@
    "manufacturer": "Airbus",
    "seat": "35A",
    "cabin": "Y+",
-   "seat_type": "W",
-   "pics": "IMG_4589_th.jpeg;IMG_4600_th.jpeg;IMG_4607_th.jpeg"
+   "seat_type": "W"
   },
   {
    "date": "20261119",
@@ -26,7 +25,8 @@
    "manufacturer": "Airbus",
    "seat": "28J",
    "cabin": "Y+",
-   "seat_type": "A"
+   "seat_type": "A",
+   "pics": "IMG_4589_th.jpeg;IMG_4600_th.jpeg;IMG_4607_th.jpeg"
   },
   {
    "date": "20261113",
@@ -95,7 +95,7 @@
    "number": "3746",
    "cxr": "Japan Air Commuter",
    "route": "KUM-KOJ",
-   "type2": "42-600",
+   "type2": "42",
    "type3": "42-600",
    "registration": "JA10JC",
    "manufacturer": "ATR",
@@ -110,7 +110,7 @@
    "number": "3743",
    "cxr": "Japan Air Commuter",
    "route": "KOJ-KUM",
-   "type2": "42-600",
+   "type2": "42",
    "type3": "42-600",
    "registration": "JA05JC",
    "manufacturer": "ATR",
@@ -125,7 +125,7 @@
    "number": "643",
    "cxr": "Japan Airlines",
    "route": "HND-KOJ",
-   "type2": "767-300ER",
+   "type2": "767-300",
    "type3": "767-300ER",
    "registration": "JA603J",
    "manufacturer": "Boeing",
